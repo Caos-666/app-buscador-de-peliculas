@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
           elevation: 5,
           centerTitle: true,
         ),
-        // Corregido aquí:
         cardTheme: CardThemeData(
           color: Colors.grey[900],
           elevation: 5,
