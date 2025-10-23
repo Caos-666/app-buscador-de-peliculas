@@ -49,7 +49,6 @@ class FavoritesScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            // Imagen de la película
                             Expanded(
                               child: poster != null
                                   ? ClipRRect(
@@ -65,7 +64,6 @@ class FavoritesScreen extends StatelessWidget {
                                   : const Icon(Icons.movie,
                                       size: 80, color: Colors.white70),
                             ),
-                            // Título y fecha
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Column(
@@ -89,8 +87,7 @@ class FavoritesScreen extends StatelessWidget {
                             ),
                           ],
                         ),
-                      ),
-                      // Botón eliminar en la esquina superior derecha
+                      )
                       Positioned(
                         top: 4,
                         right: 4,
